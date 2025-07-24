@@ -1,9 +1,13 @@
-/* responsive for small device */
+
 .nav-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
+/* .banner {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+} */
+/* responsive for small device */
  @media screen and (max-width: 576px) {
      .list-style li:nth-child(1),
      .list-style li:nth-child(2),
@@ -26,6 +30,10 @@
         grid-template-columns: 1fr 1fr;
         margin: 13px 16px 0px 16px;
      }
+     /* .banner {
+        display: grid;
+        grid-template-columns: 1fr;
+     } */
 
  }
 
