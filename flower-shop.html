@@ -33,7 +33,7 @@
           </ul>
         </div>
       </nav>
-      <section class="mt-[28px] md:mt-[221px] md:ml-[204px] md:mr-[96px]">
+      <section class="mt-[28px] md:mt-[210px] md:ml-[190px] md:mr-[80px]">
         <div class="banner grid grid-cols-1 md:grid-cols-2 items-center gap-3">
           <div class="order-2 md:order-1 ml-3 md:ml-1 mr-3 md:mr-1 mt-7">
             <h2 class="font-bold text-5xl">
@@ -166,12 +166,15 @@
       </section>
       <section
         class="grid grid-cols-1 md:grid-cols-2 mt-1 md:mt-[210px] ml-4 md:ml-[150px] mr-4 md:mr-[150px]">
-        <div>
+        <div class="relative w-full">
           <img
             class="w-full"
             src="assets/flower-store.png"
             alt="flower-store" />
-          <img src="" alt="" />
+          <img
+            class="absolute top-0 right-0 w-24 md:w-30"
+            src="assets/trusted-badge.png"
+            alt="trusted-badge" />
         </div>
         <div class="mt-4">
           <h2
@@ -230,7 +233,7 @@
         </div>
       </section>
       <section
-        class="bg-[url('./assets/news-letter-bg.png')] w-full min-h-[276px] md:min-h-[533px] bg-cover bg-center flex justify-center items-center mt-10 md:mt-20">
+        class="bg-[url('./assets/news-letter-bg.png')] w-full h-[276px] md:h-[533px] bg-cover bg-center flex justify-center items-center mt-10 md:mt-20">
         <div>
           <h2 class="font-bold text-2xl md:text-5xl text-white">
             Join the colorful Bunch
@@ -242,6 +245,54 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 mt-0 md:mt-12 mr-5 md:mr-40 ml-3.5 md:ml-40 gap-8 items-center">
+        <div>
+          <div>
+            <img
+              class="w-fit bg-cover bg-center"
+              src="assets/logo.png"
+              alt="logo" />
+          </div>
+          <p class="text-[rgba(0,0,0,0.5)]">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop.
+          </p>
+        </div>
+        <div class="flex flex-col gap-2.5 text-[rgba(0,0,0,0.5)]">
+          <a href="">Home</a>
+          <a href="">About Us</a>
+          <a href="">Blog</a>
+          <a href="">FAQ</a>
+          <a href="">Contact Us</a>
+        </div>
+        <div class="flex flex-col gap-2.5 text-[rgba(0,0,0,0.5)]">
+          <a href="">Features</a>
+          <a href="">Pricing</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Terms of Service</a>
+          <a href="">Help Center</a>
+        </div>
+        <div class="flex items-center gap-7">
+          <img
+            class="w-fit bg-cover bg-center"
+            src="assets/icon-linkedin.png"
+            alt="linkedin" />
+          <img
+            class="w-fit bg-cover bg-center"
+            src="assets/icon-twitter.png"
+            alt="twitter" />
+          <img
+            class="w-fit bg-cover bg-center"
+            src="assets/icon-facebook.png"
+            alt="facebook" />
+          <img
+            class="w-fit bg-cover bg-center"
+            src="assets/icon-youtube.png"
+            alt="facebook" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
